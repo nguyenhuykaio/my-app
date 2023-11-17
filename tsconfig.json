@@ -1,0 +1,48 @@
+{
+  "extends": "./tsconfig.paths.json",
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "alwaysStrict": false,
+    "strictFunctionTypes": false,
+    "strictPropertyInitialization": false,
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "rootDir": "src",
+    "outDir": "build",
+    "strictNullChecks": false,
+    "sourceMap": false,
+    "preserveConstEnums": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": false,
+    "useDefineForClassFields": true,
+    "downlevelIteration": true
+  },
+  "include": [
+    "src",
+    "craco.config.js"
+  ],
+  "files": [
+    "./src/types.d.ts"
+  ]
+}
